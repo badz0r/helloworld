@@ -1,11 +1,12 @@
 // HelloWorld.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
-
+#include <stdafx.h>
+#include <iostream>
 
 int main()
 {
-    return 0;
+	std::cout << "Hello world!" << std::endl;
+	return 0;
 }
 
