@@ -1,6 +1,7 @@
 language: c
 
-compiler: gcc
+compiler: 
+ - gcc
 
 before_install:
  - sudo apt-get update -qq
