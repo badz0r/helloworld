@@ -7,9 +7,10 @@ compiler:
 # - sudo apt-get update -qq
 # - sudo apt-get install -qq cmake sqlite3 qt4-dev-tools
 
-before_script:
-  cd HelloWorld
-  gcc -Wall -o HelloWorld HelloWorld.cpp stdafx.cpp
+build:
+  ci:
+    - cd HelloWorld
+    - gcc -Wall -o HelloWorld HelloWorld.cpp stdafx.cpp
   
 # script: make
 
