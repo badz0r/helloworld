@@ -13,7 +13,8 @@ before_install:
 build:
   ci:
     - cd HelloWorld
-    - gcc -Wall -o HelloWorld HelloWorld.cpp stdafx.cpp
+#    - gcc -Wall -o HelloWorld HelloWorld.cpp stdafx.cpp
+    - g++ -Wall -o HelloWorld HelloWorld.cpp stdafx.cpp
   
 # script: make
 
